@@ -1,4 +1,3 @@
-console.log("welcome to fake api");
 var Interfake = require('interfake');
 var interfake = new Interfake();
 interfake.get('/whats-next').body({ next : 'more stuff '});
